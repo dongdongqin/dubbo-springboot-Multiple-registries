@@ -1,6 +1,9 @@
 # springboot2_demo
 
-springboot2.X
+springboot2.X, dubbo 2.6.5 and  multi registries for zookeeper
+
+problems:
+springboot cannot reference the same name service from different registries
+and do not check the reference#registry attribute if the regisrty does not exist 
 
 
-这里的代码都是我博客 [spring boot 2.X/spring cloud Greenwich](https://blog.csdn.net/fgyibupi/column/info/32078) 中的代码。
